@@ -1,0 +1,24 @@
+project/
+├── docker-compose.yml
+├── Makefile
+├── app/
+│   ├── .env
+│   ├── php/
+│   │   ├── Dockerfile
+│   │   ├── index.php
+│   │   ├── upload.php
+│   │   ├── db.php
+│   │   ├── assets/
+│   │   │   ├── css/
+│   │   │   │   └── style.css
+│   │   │   ├── js/
+│   │   │   │   └── script.js
+│   │   │   └── images/
+│   │   ├── uploads/ # where uploaded images go
+│   │   └── includes/
+│   │       └── header.php   # reusable parts
+│   ├── nginx/
+│   │   └── default.conf
+│   └── sql/
+│       └── init.sql # optional: create tables automatically
+└── README.md
